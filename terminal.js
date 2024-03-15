@@ -53,7 +53,7 @@ inquirer
         },
         {
             type: 'list',
-            name: 'Helper',
+            name: 'KILL',
             message: 'You found bunch of demons, which one are you attacking first?',
             choices: ['Cacodemon', 'Imp', 'Icon of Sin', 'Hell Knight']
         },
