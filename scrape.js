@@ -17,7 +17,7 @@ for (let i = 16; i > 6; i--) {
         let res = await axios.get(`https://www.doomworld.com/10years/doomcomic/comic.php?page=${i}/`);
         data = res.data;
         fs.writeFileSync(cacheName, data);
-        console.log('LIVE REQUEST!!!!');
+        console.log('heheheh');
     } else {
         data = fs.readFileSync(cacheName);
     }
